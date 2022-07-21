@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let sout, i, j;
+    sout = "<table border='1' >"
+    for (i = 1; i <= 10; i++){
+        sout = sout+ "<tr>"
+        for (j = 1; j <= 10; j++){
+            sout = sout + "<td>" + i * j + "</td>"
+        }
+        sout = sout + "</tr>";
+    }
+    sout = sout + "</table>";
+    document.write(sout);
+
+    let table
+    let k = 1;
+    table = "<table border = '1'>"
+    while( k <=10){
+        table +="<tr>"
+        let h=1
+        while (h<=10) {
+            table = table + "<td>" + k * h + "</td>"
+            h++
+        }
+        table += "</tr>"
+        k++
+
+    }
+    table += "</table>"
+    document.write(table)
+</script>
+</body>
+</html>
