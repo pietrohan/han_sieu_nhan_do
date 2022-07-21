@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fc762e4-f606-4452-964e-508c94ea6741" name="Changes" comment="" />
+    <list default="true" id="8fc762e4-f606-4452-964e-508c94ea6741" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/review.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bang_cuu_chuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/bang_cuu_chuong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vong_lap_long.html" beforeDir="false" afterPath="$PROJECT_DIR$/vong_lap_long.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +21,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -31,6 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/6_anh_em_sieu_nha",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -47,11 +56,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658373342269</updated>
-      <workItem from="1658373343743" duration="371000" />
+      <workItem from="1658373343743" duration="3965000" />
+      <workItem from="1658414701796" duration="3167000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
