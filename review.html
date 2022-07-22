@@ -7,17 +7,11 @@
 <body>
 <script>
 
-    var x = "*"
-    for (let i = 0; i <20; i++) {
-        for (let j = 0; j < 1; j++) {
-            document.write("*");
+    for (var i =10; i >=1; i--) {
+        for (let j = 1; j <= i; j++) {
+                document.write("*");
         }
-        document.write("<br>"+x);
-        if(i==10){
-            x+="*"
-        }else{
-            x+="**"
-        }
+        document.write("<br>");
     }
 </script>
 </body>
