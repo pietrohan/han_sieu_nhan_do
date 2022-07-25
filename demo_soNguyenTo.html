@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let number = +prompt("moi an nhap so n");
+  if (number<2){
+      alert(number + " khong phai la so nguyen to")
+  }
+      check = true
+      for (let i = 2; i <= number; i++) {
+          if (number %i== 0) {
+              check = false
+              alert(number + " khong phai la so nguen to")
+              break;
+          }
+      }
+      if (check == true) {
+          alert(number + " la so nguyen to")
+      }
+
+
+</script>
+</body>
+</html>

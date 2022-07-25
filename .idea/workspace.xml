@@ -5,6 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fc762e4-f606-4452-964e-508c94ea6741" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/demo_soNguyenTo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/minmax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sapxep.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tim gia tri.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timgiatri.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinh tong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trungbinh.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bieu_dien_htgv_cn.html" beforeDir="false" afterPath="$PROJECT_DIR$/bieu_dien_htgv_cn.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/review.html" beforeDir="false" afterPath="$PROJECT_DIR$/review.html" afterDir="false" />
@@ -38,7 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/6_anh_em_sieu_nha",
+    "last_opened_file_path": "D:/untitled",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,7 +64,11 @@
       <updated>1658373342269</updated>
       <workItem from="1658373343743" duration="3965000" />
       <workItem from="1658414701796" duration="4642000" />
-      <workItem from="1658451825117" duration="740000" />
+      <workItem from="1658451825117" duration="4612000" />
+      <workItem from="1658642719406" duration="991000" />
+      <workItem from="1658670784705" duration="4837000" />
+      <workItem from="1658679771410" duration="3762000" />
+      <workItem from="1658712069250" duration="297000" />
     </task>
     <servers />
   </component>

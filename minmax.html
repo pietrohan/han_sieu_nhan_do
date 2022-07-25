@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<p id = "result"></p>
+<p id = "result2"></p>
+<body>
+<script>
+  let array=[];
+  let length1=+prompt("nhap vao do dai");
+  for(let i=0;i<length1;i++){
+    let arr=+prompt("nhap cac so theo thu tu");
+    array.push(arr);
+  }
+  let index=0;
+  let max=array[0];
+  for(let i=0;i<array.length;i++){
+    if(max<array[i]){
+      max=array[i];
+      index=i;
+    }
+  }
+  let array2 = [];
+  let length2=+prompt("nhap vao do dai");
+  for(let j=0;j<length2;j++) {
+      let arr2 = +prompt("nhap vao thu tu");
+      array2.push(arr2);
+  }
+  let index2 = 0;
+  let min = array2[0];
+  for (let j=0;j<array2.length;j++)
+      if (min > array2[j]){
+          min = array2[j];
+          index2 = j;
+      }
+  document.getElementById("result").innerHTML="max = "+max + " va nam o vi tri thu "+index;
+  document.getElementById("result2").innerHTML="min = "+min + " va nam o vi tri thu "+index2;
+</script>
+</body>
+</html>

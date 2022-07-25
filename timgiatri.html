@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<SCRIPT>
+    let array=[];
+    let length1=+prompt("nhap vao do dai");
+    for(let i=0;i<length1;i++) {
+        let arr = +prompt("nhap cac so theo thu tu");
+        array.push(arr);
+    }
+    let b = +prompt("nhap so can tim: ")
+  for (let j = 0; j<array.length;j++) {
+      if (array[j] == b) {
+          document.write(b + " co trong mang va nam o vi tri" + j);
+      }
+  }
+
+</SCRIPT>
+</body>
+</html>
