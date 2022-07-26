@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>tim so n </h2>
+
+<label for="nhapSo">nhap so:</label>
+<input id="nhapSo">
+<button onclick="checkPrime()">check</button>
+<p id = "result" ></p>
+
+<script>
+    function isPrime(number) {
+        var check = true;
+        if (number < 2)
+          return false;
+        if (number<=3)
+            return true;
+        for (let i = 2; i <= Math.sqrt(number); i++) {
+            if (number % i == 0){
+              return false;
+            }
+        }
+        return true;
+    }
+    let n = +prompt("xin moi nhap so: ");
+    if (isPrime(n)){
+        alert(n+" la so nguyen to");
+    }else{
+        alert(n + " khong phai la so nguyen to");
+    }
+    function checkPrime (){
+      let a = +document.getElementById("nhapSo").value;
+      let  result ;
+        if (isPrime(a)){
+            result = a + " la so nguyen to";
+        }else{
+            result = a + " khong phai la so nguyen to";}
+        document.getElementById("result").innerText = result
+
+    }
+
+</script>
+</body>
+</html>
