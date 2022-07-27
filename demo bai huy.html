@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id = "result" ></p>
+<p id = "result2" ></p>
+<script>
+    function test(){
+        let array=[];
+        let doDai=+prompt("nhap do dai");
+        for(let i=0;i<doDai;i++){
+            let arr=+prompt("nhap gia tri thu"+(i+1));
+            array.push(arr);
+        }
+        return array;
+    }
+    function check(){
+        let arr=[];
+        let x;
+        let test1=test();
+        if(test1<2) return false;
+        if(test1<=3) return true;
+        for(let i=0;i<test1.length;i++){
+            x = test1[i];
+            let j = 2
+            for (;j<= x-1;j++){
+                if(x%j==0){
+                    break;
+                }
+            }
+            if(j==x){
+                arr.push(x);
+            }
+        }
+        return arr;
+    }
+    function display(){
+
+        let so=check();
+        let sum=0;
+        let cout = 0;
+        let i=0;
+        for(;i<so.length;i++){
+            sum+=so[i];
+            cout=i+1;
+        }
+        document.write( "các số nguyên tố trong mảng "+ cout+"<br>")
+document.write("tổng của các số nguyên tố trong mảng"+sum)
+    }
+     let n=display();
+
+</script>
+</body>
+</html>
